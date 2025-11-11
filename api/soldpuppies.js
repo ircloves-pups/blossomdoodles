@@ -9,9 +9,8 @@ export default async function handler(req, res) {
     // Connect to the 'doodles' database, collection 'Puppy'
     const { db } = await connectToDatabase(process.env.MONGODB_URI, 'doodles');
 
-    // Fetch puppies where status is "available"
+    // Fetch puppies where status is "sold"
     const puppies = await db.collection('Puppy').find({ status: "sold" }).toArray();
-
     // Return as JSON
     return res.status(200).json(puppies);
   } catch (err) {
