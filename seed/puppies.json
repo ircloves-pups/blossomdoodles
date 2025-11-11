@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "berry-001",
+    "name": "Berry (purple collar)",
+    "status": "available",
+    "birthDate": "2025-09-24",
+    "birthWeight": 2,
+    "parents": {
+      "dog": "Chester",
+      "bitch": "Blossom"
+    },
+    "description": "Berry is a playful pup from the Autumn litter. Collar colour: purple. Social, home raised and vet checked.",
+    "photos": [
+      "/images/berry-purple.jpeg"
+    ],
+    "videoUrl": "",
+    "meta": {
+      "litterName": "Berry",
+      "collarColor": "purple"
+    },
+    "ForeverName": "Unassigned",
+    "litterName": "Berry",
+    "gender": "bitch",
+    "microchipped": true,
+    "vaccinated": false,
+    "Price": 1500,
+    "SoldToAddress": "Unassigned",
+    "SoldToName": "Unassigned"
+  }
+]

@@ -1,0 +1,3 @@
+:root{--cream:#f7f5f0}
+.bg-cream{background:var(--cream)}
+a{color:inherit;text-decoration:underline}
